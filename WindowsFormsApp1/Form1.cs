@@ -19,7 +19,15 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.label1.Text = "merhaba";
+            if(this.checkBox1.Checked)
+            {
+                this.label1.Text = "checked";
+            }
+            else
+            {
+                this.label1.Text = "not checked";
+            }
+            
         }
     }
 }
