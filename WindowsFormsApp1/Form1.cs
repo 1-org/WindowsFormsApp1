@@ -26,8 +26,8 @@ namespace WindowsFormsApp1
             else
             {
                 this.label1.Text = "not checked";
+                var time = this.dateTimePicker1.Value.ToString();
             }
-            
         }
 
     }
